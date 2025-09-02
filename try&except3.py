@@ -4,5 +4,9 @@
 #índice não for um inteiro). Exiba mensagens específicas para cada erro.
 indice=[10,20,30]
 
+
 try:
-    indice
+    print(indice[7])
+except:
+    print('o indice nao existe')
+    
